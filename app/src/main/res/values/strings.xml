@@ -1,7 +1,98 @@
 <resources>
     <string name="app_name">Bari City Tour</string>
-    <string name="start_page_button">GO</string>
+    <string name="start_page_button">START</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_vittoria">Vittoria Parc Hotel</string>
+    <string name="address_vittoria">Via Nazionale 10F, Bari Palese</string>
+    <string name="description_vittoria">The Vittoria Parc Hotel is located in the Marina di Palese area, just 50 m from the Adriatic Sea and 2 km from Bari Airport. The property offers free Wi-Fi, a restaurant, and a swimming pool. Garage parking is free.
+
+The rooms come with air conditioning, a minibar, and a flat-screen TV with satellite channels. The style is classic, with matching furnishings and carpeted floors, and private bathrooms in marble.
+
+Buffet breakfast is served daily at Vittoria Parc's restaurant with bar. For lunch and dinner you can enjoy à la carte dishes of the Italian and Apulian cuisine.
+
+The nearest motorway exits are Molfetta and Bari Nord. Shuttle services are available, with minivans or luxurious vehicles.
+
+Bari Palese is a great choice for travellers interested in walking, city walks and churches. </string>
+    <string name="name_mercure">Mercure Villa Romanazzi Carducci</string>
+    <string name="address_mercure">Ingresso Parcheggio Interno: Via di Tullio, 82, 70124 Bari</string>
+    <string name="description_mercure">Featuring a free wellness centre and a large garden with outdoor pool, Villa Romanazzi Carducci offers air-conditioned rooms 10 minutes\' walk from Bari Centrale Station. WiFi and parking are both free.
+
+The spacious, elegant rooms at Mercure Villa Romanazzi Carducci feature design furnishings and come with a minibar and satellite TV. Each room has an en suite marble bathroom.
+
+The Carducci restaurant specialises in Italian and international cuisine. The extensive breakfast buffet includes homemade cakes, cheese, cold cuts, and traditional Apulian products. It is served on the terrace in the summer.
+
+Guests can unwind in the spa, equipped with a sauna, Turkish bath and hot tub. A free gym is also available.
+
+The Bari Quintino Sella Station with links to Bari Airport is 5 minutes away on foot.
+
+This property is also rated for the best value in Bari! Guests are getting more for their money when compared to other properties in this city. </string>
+    <string name="name_hi_hotel">Hi Hotel Bari</string>
+    <string name="address_hi_hotel">Via Don Luigi Guanella 15/L, 70124 Bari</string>
+    <string name="description_hi_hotel">Hi Hotel Bari is a modern hotel located in the residential area of Poggiofranco, a 15-minute drive from Bari International Airport. It offers an outdoor pool, a PRECOR gym, and elegant rooms with free WiFi.
+
+A flat-screen TV with Mediaset Premium channels is standard in all rooms at the Hi Hotel Bari. Beds feature comfortable self-adjusting mattresses, and each room comes with a work desk and Mirra Chair designed by Herman Miller.
+
+A continental breakfast is served daily. Guests can enjoy local produce as part of the seasonal menus offered at the on-site Basilico Italian Bistrot.
+
+Bari Train Station is 4 km from the property, while the centre of Bari is a 12-minute drive away.
+
+This property is also rated for the best value in Bari! Guests are getting more for their money when compared to other properties in this city. </string>
+    <string name="name_rondo">Rondo Hotel</string>
+    <string name="address_rondo">Corso A. De Gasperi, 308/E, 70125 Bari</string>
+    <string name="description_rondo">The Rondo Hotel is conveniently located in the Carrassi district close to the central station, just a few minutes from Bari city centre. Free Wi-Fi is provided throughout the property.
+
+This hotel is ideally located for those travelling to or from Bari International airport, just 15 minutes away. The hotel is also close to a number of business centres and commercial areas of interest.
+
+The Rondo Hotel features conference rooms for business guests with a maximum capacity of 150 people.
+
+Just outside the hotel you can take the bus directly to the city centre. There is also a local shuttle bus available to visit local attractions such as the beautiful Trulli in Alberobello or the caves of Castellana Grotte. </string>
+    <string name="name_residence_moderno">Residence Moderno</string>
+    <string name="address_residence_moderno">Via Ettore Carafa 20, 70124 Bari</string>
+    <string name="description_residence_moderno">Centrally located, Residence Moderno is within 10 minutes’ walk of Bari Centrale Train Station and Bari Q.Sella Metro Station. This property features 24-hour reception and air-conditioned accommodation with free Wi-Fi.
+
+Rooms and apartments offer a TV and a private bathroom with a hairdryer and free toiletries. Apartments are complete with a kitchenette and balcony.
+
+When purchasing breakfast, a sweet breakfast will be served at a nearby café.
+
+Just 100 m from Piazza Giulio Cesare square, Moderno Residence is a 2-minute walk from the Policlinico di Bari hospital. The ferry harbour is 3.5 km away. </string>
+    <string name="name_gola">Gola Gourmet Kitchen</string>
+    <string name="address_gola">Via Camillo Rosalba 47/K, 70124, Bari, Italy</string>
+    <string name="description_gola">The best evening ever! Wonderful staff, fantastic food! They were full of surprises, including the cake for my husband’ s birthday! You can find good music, a high variety of wines and very good deserts! Go there and try yourself!</string>
+    <string name="name_santa_rita">Bakery Santa Rita Blue</string>
+    <string name="address_santa_rita">Str. dei Dottula, 8, 70122, Bari, Italy</string>
+    <string name="description_santa_rita">We were in the vicinity of this takeaway and decided to hunt it out after reading the reviews on here, we were not disappointed. It is a tiny place from the outside but stocked some groceries too. The queue was out of the door with locals and once we tasted the focaccia we could see why. Freshly made with delicious tomatoes and served straight from the oven, it was delicious. The price of only 1 Euro per slice is incredible. We even had people ask us where we bought them from as we ate them around the corner, just lovely.</string>
+    <string name="name_ciccio">Mastro Ciccio</string>
+    <string name="address_ciccio">Corso V. Emanuele, 15, 70122, Bari, Italy</string>
+    <string name="description_ciccio">Delicious Italian food, fresh products, sanwichs, small restauration, pizzas, saucisse, ham cheese, excellent wine, traditional cantine, good food in hearty portions, great atmosphere and service ultra attentive.</string>
+    <string name="name_fiore">Panificio Fiore</string>
+    <string name="address_fiore">Strada Palazzo di Citta\' 38, 70122, Bari, Italy</string>
+    <string name="description_fiore">Excellent take away focaccia just behind the san Nicola cathedral. We bought two big slices (you pay by weight) just out of the oven and a beer all for total 4.70 euros and went to eat it on the benches on the sea front. The focaccia is the best I have ever eaten without doubt plenty of cherry tomatoes, slightly crunchy base, not at all chewy and yes plenty of oil, but good quality oil - you can tell by the smell as well as the taste. Delicious and very good value for money. By the way it\'s actually a bakery and seems nothing special when you walk in but don\'t be put off, opening times as for other shops and bakeries.</string>
+    <string name="name_lido_rena">Lido San Francesco alla Rena</string>
+    <string name="address_lido_rena">Via Giuseppe Verdi 59/61, 70132, Bari, Italy</string>
+    <string name="description_lido_rena">Nice and clean private beach with sand. Perfect for families and children too. The entrance fee was 10euro in September, we got 2 beach beds and 1 umbrella for this price.</string>
+    <string name="name_giugno">Parco 2 Giugno</string>
+    <string name="address_giugno">Via della Resistenza - Viale Einaudi - Via della Costituente, 112, Bari, Italy</string>
+    <string name="description_giugno">Nice green park , for walks or to find a bench in the shadow; many trees and paths, natural environnments, a peaceful place for adults and to have a good time with children.</string>
+    <string name="name_pane">Pane e Pomodoro Beach</string>
+    <string name="address_pane">Lungomare Armando Perotti, 70126, Bari, Italy</string>
+    <string name="description_pane">It is very close to the city-center, the environment is nice with panorama to old-town. The beach is mixes of rocky and sandy. The promenade to the beach is also nice.</string>
+    <string name="name_tonino">Parco Don Tonino Bello</string>
+    <string name="address_tonino">Viale de Laurentis Luigi, 8-6 Bari, Italy</string>
+    <string name="description_tonino">A good park, with a small play area for children, located in the Poggiofranco area and with the possibility to find parking. The potential is there. It is regrettable, however, to see that lighting (evening) is insufficient. Furthermore, greater control would not hurt.</string>
+    <string name="name_san_nicola">Basilica San Nicola</string>
+    <string name="address_san_nicola">Largo Abate Elia 13, 70122, Bari, Italy</string>
+    <string name="description_san_nicola">The basilica was built between 1087 and 1197, during the Italo-Norman domination of Apulia, the area previously occupied by the Byzantine Catapan of which Bari was the seat. Its foundation is related to the recovery of some of the relics of Saint Nicholas from the saint’s original shrine in Myra, in what is now Turkey. When Myra passed into the hands of the Saracens, some saw it as an opportunity to move the saint\'s relics to a safer location. According to the justifying legend, the saint, passing by the city on his way to Rome, had chosen Bari as his burial place. There was great competition for the relics between Venice and Bari. The latter won, the relics were carried off under the noses of the lawful Greek custodians and their Muslim masters, and on May 9, 1087, were safely landed at Bari. A new church was built to shelter Nicholas' remains and Pope Urban II was present at the consecration of the crypt in 1089. The edifice was officially consecrated in 1197, in the presence of the Imperial Vicar, Bishop Conrad of Hildesheim, and of numerous bishops, prelates and noblemen. Elias, abbot of the nearby monastery of Saint Benedict, was named as first archbishop. His cathedra (bishop's throne) still stands in the church to this day.</string>
+    <string name="name_san_sabino">Cattedrale di San Sabino</string>
+    <string name="address_san_sabino">Piazza Odegitria, Bari, Italy</string>
+    <string name="description_san_sabino">Bari Cathedral (Italian: Duomo di Bari or Cattedrale di San Sabino) is the cathedral of Bari, in Apulia, southern Italy, senior to, though less famous than, the Basilica of St Nicholas (Basilica di San Nicola) in the same city. The cathedral is the seat of the Archbishop of Bari-Bitonto, as it was previously of the archbishops, earlier bishops, of Bari. It is dedicated to Saint Sabinus, a bishop of Canosa, whose relics were brought here in the 9th century.[1]
+The present building was constructed between the late 12th and late 13th centuries, mostly in the last thirty years of the 12th century, and was built on the site of the ruins of the Imperial Byzantine cathedral destroyed in 1156 by William I of Sicily known as the Wicked (il Malo); to the right of the transept it is still possible to observe traces of the original pavement which extends under the nave.</string>
+    <string name="name_giaquinto">Pinacoteca Corrado Giaquinto</string>
+    <string name="address_giaquinto">Lungomare Nazario Sauro 17, 70121, Bari, Italy</string>
+    <string name="description_giaquinto">The Pinacoteca metropolitana di Bari or Painting Gallery of Metropolitan City of Bari is a public gallery of paintings and museum of artworks in the city of Bari, Italy.</string>
+    <string name="name_scolastica">Museo Archeologico di Santa Scolastica</string>
+    <string name="address_scolastica">P.zza Umberto, I, 70122, Bari, Italy</string>
+    <string name="description_scolastica">From Piazza Mercantile square, following the “Muraglia” city walls to their furthest point, one reaches the imposingly monumental buildings of Santa Scolastica, some of the most beautiful and picturesque edifices in the city. These include a 16th century Aragonese bastion (erected after the demolition of a medieval church dedicated to Saints John and Paul) and the ancient monastery, site of the city’s archaeological museum together with the archaeological area of San Pietro. An entrance within an embrasure at the foot of the bastion leads to a route which allows the visitor to observe part of the rich archaeological stratification of the site which ranges from the Bronze Age (2000 BC) to the Byzantine and Medieval eras, passing through the Greek and Roman periods. The remains of the old city walls, dating back to the end of the 4th century BC are among the most striking historical relics on display. It is also possible to see the ruins of a pre-historic village and a Peucetian and Greek burial ground. Since October 2014 the museum has made improvements by adding new exhibition areas and its reorganisation programme is still in progress. </string>
+    <string name="city_of_bari_tour_guide">City of BARI Tour Guide</string>
 </resources>

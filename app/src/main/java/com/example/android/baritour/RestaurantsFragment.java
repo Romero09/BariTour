@@ -1,4 +1,4 @@
-package com.example.android.rigatour;
+package com.example.android.baritour;
 
 
 import android.content.Intent;
@@ -15,29 +15,29 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AttractionsFragment extends Fragment {
+public class RestaurantsFragment extends Fragment {
 
 
-    public AttractionsFragment() {
+    public RestaurantsFragment() {
         // Required empty public constructor
     }
 
-
+    //Array tah contains information about tourism objects
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.information_list, container, false);
+        View rootView = inflater.inflate(com.example.android.baritour.R.layout.information_list, container, false);
 
         final ArrayList<Information> info = new ArrayList<Information>();
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
+        info.add(new Information(getString(R.string.name_gola), getString(R.string.address_gola), getString(R.string.description_gola), com.example.android.baritour.R.drawable.gola_gourmet, 5));
+        info.add(new Information(getString(R.string.name_santa_rita), getString(R.string.address_santa_rita), getString(R.string.description_santa_rita), com.example.android.baritour.R.drawable.santa_rita, 4));
+        info.add(new Information(getString(R.string.name_ciccio), getString(R.string.address_ciccio), getString(R.string.description_ciccio), com.example.android.baritour.R.drawable.mastro_ciccio, 4));
+        info.add(new Information(getString(R.string.name_fiore), getString(R.string.address_fiore), getString(R.string.description_fiore), com.example.android.baritour.R.drawable.panificio_fiore, 4));
 
 
         InformationAdapter adapter = new InformationAdapter(getActivity(), info);
 
-        ListView infoListView = (ListView) rootView.findViewById(R.id.info_list);
+        ListView infoListView = (ListView) rootView.findViewById(com.example.android.baritour.R.id.info_list);
 
         infoListView.setAdapter(adapter);
 
@@ -47,6 +47,7 @@ public class AttractionsFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
+                //storing objects for intent
                 Information object = info.get(position);
                 String name = object.getName();
                 String adress = object.getAdress();
@@ -55,10 +56,9 @@ public class AttractionsFragment extends Fragment {
                 int stars = object.getStars();
 
 
-
                 // Launching new Activity on selecting single List Item
-                Intent i = new Intent(getActivity(), DetailedFragment.class);
-                // sending data to new activity
+                Intent i = new Intent(getActivity(), DetailedActivity.class);
+                // sending data to DetailedActivity activity
                 i.putExtra("name", name)
                         .putExtra("adress", adress)
                         .putExtra("description", description)

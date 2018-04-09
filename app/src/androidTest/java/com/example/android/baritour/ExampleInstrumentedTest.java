@@ -1,4 +1,4 @@
-package com.example.android.rigatour;
+package com.example.android.baritour;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

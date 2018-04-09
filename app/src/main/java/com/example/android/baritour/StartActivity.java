@@ -1,22 +1,22 @@
-package com.example.android.rigatour;
+package com.example.android.baritour;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity {
 
-public TabLayout tabLayout;
+    public TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.view_pager);
+        setContentView(com.example.android.baritour.R.layout.view_pager);
 
 
         // Find the view pager that will allow the user to swipe between fragments
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager viewPager = (ViewPager) findViewById(com.example.android.baritour.R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
         FragmentAdapter adapter = new FragmentAdapter(this, getSupportFragmentManager());
@@ -25,18 +25,18 @@ public TabLayout tabLayout;
         viewPager.setAdapter(adapter);
 
         // Give the TabLayout the ViewPager
-        tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout = (TabLayout) findViewById(com.example.android.baritour.R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
 
         // configure icons array for tabLayout
         int[] imageResId = {
-                R.drawable.hotel,
-                R.drawable.restaurant,
-                R.drawable.park,
-                R.drawable.attractions};
+                com.example.android.baritour.R.drawable.hotel,
+                com.example.android.baritour.R.drawable.restaurant,
+                com.example.android.baritour.R.drawable.park,
+                com.example.android.baritour.R.drawable.attractions};
 
-        //setting up icons for each tab through loop
+        //setting up icons for each tab image will be taken from imageResId through loop.
         for (int i = 0; i < imageResId.length; i++) {
             tabLayout.getTabAt(i).setIcon(imageResId[i]);
         }
@@ -44,6 +44,5 @@ public TabLayout tabLayout;
     }
 
 
-
-
 }
+
