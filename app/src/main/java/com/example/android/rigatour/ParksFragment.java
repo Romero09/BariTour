@@ -52,13 +52,18 @@ public class ParksFragment extends Fragment {
                 String adress = object.getAdress();
                 String description = object.getDescription();
                 int picture = object.getPictureId();
+                int stars = object.getStars();
 
 
 
                 // Launching new Activity on selecting single List Item
                 Intent i = new Intent(getActivity(), DetailedFragment.class);
                 // sending data to new activity
-                i.putExtra("name", name).putExtra("adress", adress).putExtra("description", description).putExtra("picture", picture);
+                i.putExtra("name", name)
+                        .putExtra("adress", adress)
+                        .putExtra("description", description)
+                        .putExtra("picture", picture)
+                        .putExtra("stars", stars);
                 startActivity(i);
 
             }

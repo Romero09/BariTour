@@ -27,10 +27,23 @@ public TabLayout tabLayout;
         // Give the TabLayout the ViewPager
         tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+
+        // configure icons array for tabLayout
+        int[] imageResId = {
+                R.drawable.hotel,
+                R.drawable.restaurant,
+                R.drawable.park,
+                R.drawable.attractions};
+
+        //setting up icons for each tab through loop
+        for (int i = 0; i < imageResId.length; i++) {
+            tabLayout.getTabAt(i).setIcon(imageResId[i]);
+        }
+
     }
 
-    public TabLayout getTabLayout(){
-        return tabLayout;
-    }
+
+
 
 }

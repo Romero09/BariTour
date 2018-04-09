@@ -16,7 +16,6 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
-    private String tabTitles[] = new String[] {"Hotels", "Restaurants", "Parks", "Attractions"};
 
 
     @Override
@@ -32,11 +31,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         }
     }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
-        return tabTitles[position];
-    }
+
 
     @Override
     public int getCount() {

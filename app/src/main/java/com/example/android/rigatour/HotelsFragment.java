@@ -29,9 +29,10 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.information_list, container, false);
 
         final ArrayList<Information> info = new ArrayList<Information>();
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
-        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
+        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher, 5));
+        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher, 4));
+        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher, 3));
+        info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher, 2));
         info.add(new Information("Raddison Blue", "Elizabetes iela 55, Rīga", "blankDescription", R.mipmap.ic_launcher));
 
 
@@ -52,13 +53,18 @@ public class HotelsFragment extends Fragment {
                 String adress = object.getAdress();
                 String description = object.getDescription();
                 int picture = object.getPictureId();
+                int stars = object.getStars();
 
 
 
                 // Launching new Activity on selecting single List Item
                 Intent i = new Intent(getActivity(), DetailedFragment.class);
                 // sending data to new activity
-                i.putExtra("name", name).putExtra("adress", adress).putExtra("description", description).putExtra("picture", picture);
+                i.putExtra("name", name)
+                        .putExtra("adress", adress)
+                        .putExtra("description", description)
+                        .putExtra("picture", picture)
+                        .putExtra("stars", stars);
                 startActivity(i);
 
             }

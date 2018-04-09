@@ -21,6 +21,13 @@
         android:layout_gravity="center"
         />
 
+    <ImageView
+        android:id="@+id/detailed_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        />
+
     <TextView
         android:id="@+id/detailed_adress"
         android:layout_width="wrap_content"

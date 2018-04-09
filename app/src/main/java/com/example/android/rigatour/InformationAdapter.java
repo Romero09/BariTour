@@ -57,6 +57,16 @@ public class InformationAdapter extends ArrayAdapter<Information> {
         ImageView pictureImageView = (ImageView) listItemView.findViewById(R.id.list_picture);
         pictureImageView.setImageResource(currentInformation.getPictureId());
 
+        ImageView starsImageView = (ImageView) listItemView.findViewById(R.id.list_stars);
+        if (currentInformation.hasImage()) {
+            // If an image is available, display the provided image based on the resource ID
+            starsImageView.setImageResource(currentInformation.getStars());
+            // Make sure the view is visible
+            starsImageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the ImageView (set visibility to GONE)
+            starsImageView.setVisibility(View.GONE);
+        }
 
 
         return listItemView;
